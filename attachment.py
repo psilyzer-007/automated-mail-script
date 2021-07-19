@@ -25,7 +25,7 @@ str =  ['0', '0','0']
 
 for i in range(0, rows):
     msg = EmailMessage()
-    msg['Subject'] = 'Problem Statement | ProduScope'
+    msg['Subject'] = 'Congratulations!'
     msg['From'] = email
     msg['To'] = mails[i]
     
